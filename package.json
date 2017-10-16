@@ -1,0 +1,37 @@
+{
+  "name": "@speedy/sass-loader",
+  "version": "0.0.0",
+  "description": "A faster Webpack SASS Loader",
+  "main": "./lib/loader.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan-agius4/speedy-webpack-sass-loader.git"
+  },
+  "keywords": [
+    "sass",
+    "webpack",
+    "module loader",
+    "loader"
+  ],
+  "author": "Alan Agius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alan-agius4/speedy-webpack-sass-loader/issues"
+  },
+  "homepage": "https://github.com/alan-agius4/speedy-webpack-sass-loader#readme",
+  "scripts": {
+    "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s",
+    "version": "npm run changelog",
+    "postversion": "git commit --all -m \"chore(all): update for release\" && git push && git push --tags"
+  },
+  "peerDependencies": {
+    "node-sass": "^4.0.0",
+    "webpack": "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "@speedy/commit-msg-hook": "^1.8.1"
+  }
+}
