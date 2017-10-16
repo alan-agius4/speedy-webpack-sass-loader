@@ -3,7 +3,9 @@
 [![dependencies Status](https://david-dm.org/alan-agius4/speedy-webpack-sass-loader/status.svg)](https://david-dm.org/alan-agius4/speedy-webpack-sass-loader)
 [![devDependencies Status](https://david-dm.org/alan-agius4/speedy-webpack-sass-loader/dev-status.svg)](https://david-dm.org/alan-agius4/speedy-webpack-sass-loader?type=dev)
 
-This is a drop in replacement for [SASS Loader](https://github.com/webpack-contrib/sass-loader) It is highly simplified in order to improve performance on large application with a lot of SASS imports.
+A faster Webpack SASS Loader.
+
+This is a drop in replacement for [SASS Loader](https://github.com/webpack-contrib/sass-loader) It is highly simplified in order to improve build times on large application with a lot of SASS imports.
 
 This has mainly been developed for "legacy" SASS architecture, ie: SASS is not required within a JS file. However this doesn't mean it will not work with modern architectures.
 
