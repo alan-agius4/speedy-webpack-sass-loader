@@ -23,7 +23,7 @@ module.exports = {
       rules: [{
           test: /\.scss$/,
           use: [{
-              loader: "speedy-sass-loader" // compiles SASS to CSS
+              loader: "@speedy/sass-loader" // compiles SASS to CSS
           }]
       }]
   }
@@ -46,7 +46,7 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           use: [
             {
-              loader: "speedy-sass-loader",
+              loader: "@speedy/sass-loader",
               options: {
                 includePaths: ["./src/assets/sass"]
               }
