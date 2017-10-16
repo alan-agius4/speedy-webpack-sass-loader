@@ -24,7 +24,7 @@ module.exports = {
   module: {
       rules: [{
           test: /\.scss$/,
-          use: "@speedy/sass-loader" // compiles SASS to CSS
+          loader: "@speedy/sass-loader" // compiles SASS to CSS
       }]
   }
 };
@@ -40,7 +40,7 @@ module.exports = {
   },
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
