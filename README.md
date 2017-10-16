@@ -24,9 +24,7 @@ module.exports = {
   module: {
       rules: [{
           test: /\.scss$/,
-          use: [{
-              loader: "@speedy/sass-loader" // compiles SASS to CSS
-          }]
+          use: "@speedy/sass-loader" // compiles SASS to CSS
       }]
   }
 };
