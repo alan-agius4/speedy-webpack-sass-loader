@@ -1,6 +1,6 @@
 {
   "name": "@speedy/sass-loader",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A faster Webpack SASS Loader",
   "main": "./lib/loader.js",
   "repository": {
