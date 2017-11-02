@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/alan-agius4/speedy-webpack-sass-loader/compare/v1.0.1...v1.1.0) (2017-11-02)
+
+
+### Features
+
+* **loader:** add support for css sourcemaps ([b1204f4](https://github.com/alan-agius4/speedy-webpack-sass-loader/commit/b1204f4))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/alan-agius4/speedy-webpack-sass-loader/compare/v1.0.0...v1.0.1) (2017-10-16)
 
