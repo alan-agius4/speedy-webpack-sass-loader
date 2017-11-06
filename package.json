@@ -29,6 +29,7 @@
     "webpack": "^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0"
   },
   "dependencies": {
+    "async": "^2.5.0",
     "loader-utils": "^1.1.0"
   },
   "devDependencies": {
